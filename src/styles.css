@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+.fullBg {
+    top: 213px;
+    left: -179px;
+    width: 571px;
+    height: 572px;
+  
+    opacity: 1;
+}
+.mat-card{
+    top: 2px;
+    left: 500px;
+    width: 350px;
+    
+
+}
+body {
+    background-image: url("assets/circle.svg");
+    background-color: #cccccc;
+   }
+.sp1{
+top: 370px;
+left: 189px;
+width: 407px;
+height: 98px;
+font-size: 30px;
+padding-top: 30px;
+}  
+.mat-toolbar{
+    background : transparent;
+}
+.mat-button{
+    left : 550px;
+}
+.Buttn4{
+    border: thin;
+    
+}
+.mat-slider-horizontal {
+    height: 48px;
+    min-width: 300px; 
+}
+.mat-raised-button{
+    left : 600px;
+}
+
+
+  .mat-slider {
+    width: 300px;
+  }
