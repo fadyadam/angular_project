@@ -9,16 +9,25 @@
     opacity: 1;
 }
 .mat-card{
-    top: 2px;
-    left: 500px;
     width: 350px;
-    
-
 }
+
 body {
-    background-image: url("assets/circle.svg");
-    background-color: #cccccc;
+    background-image: url(assets/sol_wave_bg.svg) bottom;
+    background-color: #ffffff;
    }
+   .gridRight{
+       height: 60%;
+       background-image: url(assets/circle.svg);
+   }
+   .gridLeft{
+       background-image: url(assets/blob-small.svg);
+
+       background-repeat: no-repeat;
+       right: 40%;
+       background-size: contain;
+   }
+   
 .sp1{
 top: 370px;
 left: 189px;
@@ -26,26 +35,54 @@ width: 407px;
 height: 98px;
 font-size: 30px;
 padding-top: 30px;
+border-bottom: 8px solid black;
+font-weight: bold;
 }  
 .mat-toolbar{
     background : transparent;
 }
 .mat-button{
-    left : 550px;
+    left : 700px;
 }
-.Buttn4{
-    border: thin;
-    
-}
+
 .mat-slider-horizontal {
     height: 48px;
     min-width: 300px; 
 }
 .mat-raised-button{
-    left : 600px;
+    left : 780px;
 }
 
 
   .mat-slider {
     width: 300px;
   }
+  .light{
+      padding-top: 50px;
+      margin-top: 10px;
+  }
+  .innerGrid1{
+      background-image: url(assets/Rectangle_Copy_23.svg);
+      background-repeat: no-repeat;
+  }
+  .pic{
+  
+      align-content: end;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+.text1{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+.bb{
+    position: absolute;
+    top:150px;
+    left :60px;
+}
+.div1{
+    background-image: url(assets/sol_wave_bg.svg) ;
+}
+  

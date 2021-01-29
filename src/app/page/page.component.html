@@ -1,6 +1,10 @@
 <mat-toolbar color="Transparent">
-    <h1><span class="light"><img class = "fullbg" [src]="page.image2" alt="image"></span></h1>
-    <span class="spacer">                 </span>
+    
+      <span class="light"
+        ><img class="fullbg" [src]="page.image2" alt="image"
+      /></span>
+
+    <span class="spacer"> </span>
     <a mat-button>Products</a>
     <a mat-button>Solution</a>
     <a mat-button>Pricing</a>
@@ -8,51 +12,67 @@
     <button mat-raised-button color="accent">Get started</button>
   </mat-toolbar>
   <body>
-    <mat-grid-list cols="2" rowHeight="1:1" rowspan="2">
-        <mat-grid-tile>
-            <span class='sp1'> We make it super<br> Simple!</span><br>
-            <mat-grid-tile><img mat-card-image><img src="assets/collect_img-video.png" alt=""></mat-grid-tile>
-
-        </mat-grid-tile>
-      </mat-grid-list>
- 
-
-<mat-card>
-<mat-card-header>
-<mat-card-title><h3>{{page.title}}</h3></mat-card-title>
-
-
-</mat-card-header>
-<h4>Monthly Income</h4>
-<mat-card-content>
-
-    <mat-slider
-    thumbLabel
   
-    tickInterval="1000"
-    min="1"
-    max="100000"></mat-slider>
-<h4>Monthly Expense</h4>
-<mat-slider
-thumbLabel
+    <mat-grid-list cols="2" rowHeight="2:1">
+      <mat-grid-tile class="gridLeft"
+        ><span class="sp1">
+          We make it super<br />
+          Simple!</span
+        ></mat-grid-tile
+      >
+      <mat-grid-tile class="gridRight"rowHeight="4:1" >
+          <mat-card>
+              <mat-card-header>
+                <mat-card-title
+                  ><h3>{{ page.title }}</h3></mat-card-title
+                >
+              </mat-card-header>
+              <h4>Monthly Income</h4>
+              <mat-card-content>
+                <mat-slider
+                  thumbLabel
+                  tickInterval="1000"
+                  min="1"
+                  max="100000"
+                ></mat-slider>
+                <h4>Monthly Expense</h4>
+                <mat-slider
+                  thumbLabel
+                  tickInterval="1000"
+                  min="1"
+                  max="100000"
+                ></mat-slider
+                ><br />
+                <h4>Repayment Tenure</h4>
+                <mat-select>
+                  <a mat-list>products</a>
+                </mat-select>
+                <mat-slide-toggle>
+                  <p>Do You have any exesting loan?</p><a mat-slide-toggle></a>
+                </mat-slide-toggle>
+                <mat-form-field appearance="legacy">
+                  <mat-label>EMI of existing loans</mat-label>
+                  <input matInput placeholder="In Rurpee" />
+                </mat-form-field>
+              </mat-card-content>
+            </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile
+        ><img mat-card-image /><img src="assets/collect_img-video.png" alt=""
+      />
+    
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+    <mat-grid-tile class="innerGrid1">
+        <img class="pic" src="assets/Get_Paid_Instantly.png" alt="">
+        <h4 class="bb">Quick cash disbursement</h4><br>
+        <p class = "text1">Get terms loans that your business needs within 72 hrs</p>
+    <mat-grid-tile class="innerGrid2">
+    b 
+    </mat-grid-tile>
+    </mat-grid-tile>
+    <div id="div1">
+    <mat-grid-tile>5</mat-grid-tile>
   
-tickInterval="1000"
-min="1"
-max="100000"></mat-slider><br>
-<h4>Repayment Tenure</h4>
-<mat-select>
-    <a mat-list>products</a>
-</mat-select>
-<mat-slide-toggle>
-    <a mat-slide-toggle>Do You have any exesting loan?</a>
-</mat-slide-toggle>
-<mat-form-field appearance="legacy">
-    <mat-label>EMI of existing loans</mat-label>
-    <input matInput placeholder="In Rurpee">
-    
-    
-  </mat-form-field>
-</mat-card-content>
-</mat-card>
-
-</body>
+</div>
+   

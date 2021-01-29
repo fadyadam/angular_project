@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'website';
 }
+
+
 export class SliderFormattingExample {
   formatLabel(value: number) {
     if (value >= 1000) {

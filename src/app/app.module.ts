@@ -40,11 +40,13 @@ import { MatTreeModule } from '@angular/material/tree';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
+import { Page2Component } from './page2/page2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    Page2Component
   ],
   imports: [
     BrowserModule,
