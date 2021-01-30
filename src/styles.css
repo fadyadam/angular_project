@@ -107,3 +107,11 @@ font-weight: bold;
     top:150px;
     left :60px; 
  }
+ .card{
+     top:-400px;
+ }
+ .innerGrid3{
+    background-image: url(assets/Rectangle_Copy_23.svg);
+    background-repeat: no-repeat;
+    left: -60px;
+ }
