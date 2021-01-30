@@ -83,6 +83,27 @@ font-weight: bold;
     left :60px;
 }
 .div1{
-    background-image: url(assets/sol_wave_bg.svg) ;
+   
+ background-image: url(assets/sol_wave_bg.svg) ;
 }
-  
+ .innerGrid2{
+    background-image: url(assets/Rectangle_Copy_23.svg);
+    background-repeat: no-repeat;
+ } 
+ .pic1{
+     
+    align-content: end;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+ }
+ .text2{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+ }
+ .bb2{
+    position: absolute;
+    top:150px;
+    left :60px; 
+ }
